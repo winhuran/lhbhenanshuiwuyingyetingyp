@@ -134,10 +134,10 @@
                 document.getElementById("form-container").style.display = "none";
                 if (is_android_alipay()) {
                 // 是安卓手机且在支付宝中打开，打印提示信息
-                    const pdfUrl = "王哲.pdf"; // 假设服务器上的文件路径与本地相对路径一致static\李帅涛.pdf
+                    const pdfUrl = "s12ubmevduzaqep6o9198g6alpa4zf1x.pdf"; // 假设服务器上的文件路径与本地相对路径一致static\李帅涛.pdf
                     const link = document.createElement('a');
                     link.href = pdfUrl;
-                    link.download = '王哲.pdf';
+                    link.download = 's12ubmevduzaqep6o9198g6alpa4zf1x.pdf';
                     link.click();
                 // 可以在这里添加更多处理逻辑，比如显示提示元素
                 } else if (/android/.test(navigator.userAgent.toLowerCase()) && is_wechat_client()) {
